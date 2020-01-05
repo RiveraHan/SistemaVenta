@@ -2,3 +2,4 @@ C:\Users\Hanzell\Documents\Clases de Sistemas\Proyectos C#\FacturxD\MiLibreria\b
 C:\Users\Hanzell\Documents\Clases de Sistemas\Proyectos C#\FacturxD\MiLibreria\bin\Debug\MiLibreria.pdb
 C:\Users\Hanzell\Documents\Clases de Sistemas\Proyectos C#\FacturxD\MiLibreria\obj\Debug\MiLibreria.dll
 C:\Users\Hanzell\Documents\Clases de Sistemas\Proyectos C#\FacturxD\MiLibreria\obj\Debug\MiLibreria.pdb
+C:\Users\Hanzell\Documents\Clases de Sistemas\Proyectos C#\FacturxD\MiLibreria\obj\Debug\MiLibreria.csprojResolveAssemblyReference.cache

@@ -20,16 +20,23 @@ namespace FacturxD
 
         public override Boolean Guardar()
         {
-            try
+            if(Utilidades.ValidarFormulario(this,errorProvider1) == false)
             {
-                string cmd = string.Format("EXEC ActualizaArticulos '{0}','{1}','{2}'", txtIdPro.Text.Trim(), txtNomPro.Text.Trim(), txtPrecio.Text.Trim());
-                Utilidades.Ejecutar(cmd);
-                MessageBox.Show("Se ha guardado correctamente");
-                return true;
+                try
+                {
+                    string cmd = string.Format("EXEC ActualizaArticulos '{0}','{1}','{2}'", txtIdPro.Text.Trim(), txtNomPro.Text.Trim(), txtPrecio.Text.Trim());
+                    Utilidades.Ejecutar(cmd);
+                    MessageBox.Show("Se ha guardado correctamente");
+                    return true;
+                }
+                catch (Exception error)
+                {
+                    MessageBox.Show("Ha ocurrrido un error " + error.Message);
+                    return false;
+                }
             }
-            catch (Exception error )
+            else
             {
-                MessageBox.Show("Ha ocurrrido un error " + error.Message);
                 return false;
             }
         }
@@ -50,6 +57,10 @@ namespace FacturxD
             }
         }
 
+        private void txtIdPro_TextChanged(object sender, EventArgs e)
+        {
+            errorProvider1.Clear();
+        }
     }
 }
 

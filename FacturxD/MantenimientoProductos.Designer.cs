@@ -31,9 +31,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtIdPro = new System.Windows.Forms.TextBox();
-            this.txtNomPro = new System.Windows.Forms.TextBox();
-            this.txtPrecio = new System.Windows.Forms.TextBox();
+            this.txtIdPro = new MiLibreria.ErrorTxtBox();
+            this.txtNomPro = new MiLibreria.ErrorTxtBox();
+            this.txtPrecio = new MiLibreria.ErrorTxtBox();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -45,7 +46,6 @@
             // 
             this.button2.Location = new System.Drawing.Point(417, 78);
             this.button2.Size = new System.Drawing.Size(114, 20);
-            //this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -81,7 +81,6 @@
             this.label2.Size = new System.Drawing.Size(108, 20);
             this.label2.TabIndex = 9;
             this.label2.Text = "Descripción:";
-            //this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -95,24 +94,28 @@
             // 
             // txtIdPro
             // 
-            this.txtIdPro.Location = new System.Drawing.Point(153, 45);
+            this.txtIdPro.Location = new System.Drawing.Point(153, 47);
             this.txtIdPro.Name = "txtIdPro";
             this.txtIdPro.Size = new System.Drawing.Size(152, 20);
-            this.txtIdPro.TabIndex = 11;
+            this.txtIdPro.TabIndex = 14;
+            this.txtIdPro.Validar = true;
+            this.txtIdPro.TextChanged += new System.EventHandler(this.txtIdPro_TextChanged);
             // 
             // txtNomPro
             // 
-            this.txtNomPro.Location = new System.Drawing.Point(153, 110);
+            this.txtNomPro.Location = new System.Drawing.Point(153, 112);
             this.txtNomPro.Name = "txtNomPro";
             this.txtNomPro.Size = new System.Drawing.Size(152, 20);
-            this.txtNomPro.TabIndex = 12;
+            this.txtNomPro.TabIndex = 15;
+            this.txtNomPro.Validar = true;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(153, 179);
+            this.txtPrecio.Location = new System.Drawing.Point(153, 181);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(152, 20);
-            this.txtPrecio.TabIndex = 13;
+            this.txtPrecio.TabIndex = 16;
+            this.txtPrecio.Validar = true;
             // 
             // MantenimientoProductos
             // 
@@ -138,6 +141,7 @@
             this.Controls.SetChildIndex(this.txtIdPro, 0);
             this.Controls.SetChildIndex(this.txtNomPro, 0);
             this.Controls.SetChildIndex(this.txtPrecio, 0);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,8 +151,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtIdPro;
-        private System.Windows.Forms.TextBox txtNomPro;
-        private System.Windows.Forms.TextBox txtPrecio;
+        private MiLibreria.ErrorTxtBox txtIdPro;
+        private MiLibreria.ErrorTxtBox txtNomPro;
+        private MiLibreria.ErrorTxtBox txtPrecio;
     }
 }
