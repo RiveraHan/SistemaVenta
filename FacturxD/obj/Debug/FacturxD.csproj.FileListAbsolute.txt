@@ -26,3 +26,24 @@ C:\Users\Hanzell\Documents\Clases de Sistemas\Proyectos C#\FacturxD\FacturxD\obj
 C:\Users\Hanzell\Documents\Clases de Sistemas\Proyectos C#\FacturxD\FacturxD\obj\Debug\FacturxD.Mantenimiento.resources
 C:\Users\Hanzell\Documents\Clases de Sistemas\Proyectos C#\FacturxD\FacturxD\obj\Debug\FacturxD.MantenimientoCliente.resources
 C:\Users\Hanzell\Documents\Clases de Sistemas\Proyectos C#\FacturxD\FacturxD\obj\Debug\FacturxD.MantenimientoProductos.resources
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\bin\Debug\FacturxD.exe.config
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\bin\Debug\FacturxD.exe
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\bin\Debug\FacturxD.pdb
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\bin\Debug\MiLibreria.dll
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\bin\Debug\MiLibreria.pdb
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.csprojAssemblyReference.cache
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.ContenedorPrincipal.resources
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.FormBase.resources
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.Mantenimiento.resources
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.MantenimientoCliente.resources
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.MantenimientoProductos.resources
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.VentanaAdmin.resources
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.VentanaLogin.resources
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.Properties.Resources.resources
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.VentanaUser.resources
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.csproj.GenerateResource.cache
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.csproj.CoreCompileInputs.cache
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.csproj.CopyComplete
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.exe
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.pdb
+C:\Users\Hanzel\Source\Repos\RiveraHan\SistemaVenta\FacturxD\obj\Debug\FacturxD.Procesos.resources

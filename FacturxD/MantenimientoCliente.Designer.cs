@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MantenimientoCliente));
             this.txtApeCli = new System.Windows.Forms.TextBox();
             this.txtNomCli = new System.Windows.Forms.TextBox();
             this.txtIdCli = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -118,6 +120,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MantenimientoCliente";
             this.Text = "MantenimientoCliente";
             this.Controls.SetChildIndex(this.button1, 0);
@@ -131,6 +134,7 @@
             this.Controls.SetChildIndex(this.txtIdCli, 0);
             this.Controls.SetChildIndex(this.txtNomCli, 0);
             this.Controls.SetChildIndex(this.txtApeCli, 0);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
