@@ -47,7 +47,6 @@ namespace FacturxD
 
            pictureBox1.Image = Image.FromFile(url);
         }
-
         private void label4_Click(object sender, EventArgs e)
         {
             

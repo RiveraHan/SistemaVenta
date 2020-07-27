@@ -17,6 +17,7 @@ namespace FacturxD
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new VentanaLogin());
+            //Application.Run(new ContenedorPrincipal());
         }
     }
 }

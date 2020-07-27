@@ -34,7 +34,6 @@ namespace FacturxD
                 string cuenta = ds.Tables[0].Rows[0]["account"].ToString().Trim();
                 string contra = ds.Tables[0].Rows[0]["password"].ToString().Trim();
 
-
                 if(cuenta == txtNomAcc.Text.Trim() && contra == txtPass.Text.Trim())
                 {
                     if (Convert.ToBoolean(ds.Tables[0].Rows[0]["Status_admin"]) == true)

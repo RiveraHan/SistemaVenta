@@ -36,5 +36,10 @@ namespace FacturxD
         {
             Nuevo();
         }
+
+        private void Mantenimiento_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
